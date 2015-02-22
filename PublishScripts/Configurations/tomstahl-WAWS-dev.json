@@ -1,0 +1,21 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "tomstahl",
+            "location": "East US 2"
+        },
+        "databases": [
+            {
+                "connectionStringName": "DefaultConnection",
+                "databaseName": "tomstahl_db",
+                "serverName": "",
+                "user": "madflytom",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": "",
+                "location": "Southeast Asia"
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tomstahl", "tomstahl\tomstahl.csproj", "{C78BABFF-6B29-4662-A430-6E261967868F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{EC48722E-45C3-4214-9692-BF4D733AD0F8}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{D3CE5E08-09B9-45D6-8A92-BD9E491701F9}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\tomstahl-WAWS-dev.json = PublishScripts\Configurations\tomstahl-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8F2201E2-F95C-4D13-81A4-67C45D21BC28}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C78BABFF-6B29-4662-A430-6E261967868F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78BABFF-6B29-4662-A430-6E261967868F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78BABFF-6B29-4662-A430-6E261967868F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78BABFF-6B29-4662-A430-6E261967868F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3CE5E08-09B9-45D6-8A92-BD9E491701F9} = {EC48722E-45C3-4214-9692-BF4D733AD0F8}
+	EndGlobalSection
+EndGlobal
