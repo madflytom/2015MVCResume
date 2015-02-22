@@ -20,9 +20,17 @@ namespace tomstahl.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        private string p;
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+        }
+
+        public ApplicationDbContext(string p)
+        {
+            // TODO: Complete member initialization
+            this.p = p;
         }
 
         public static ApplicationDbContext Create()
