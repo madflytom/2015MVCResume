@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace tomstahl.Models
 {
@@ -11,7 +12,7 @@ namespace tomstahl.Models
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int ID { get; set; }
-        [DataType(DataType.MultilineText)]
+        [UIHint("tinymce_jquery_full"), AllowHtml]
         public string Content { get; set; }
     }
 }
